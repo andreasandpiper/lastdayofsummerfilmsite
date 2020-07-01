@@ -4,19 +4,9 @@
   {%- include head.html -%}
 
   <body>
-
     <div class="container-fluid p-0">
-      <div class="row">
-        <div class="col-sm">
-          {%- include navbar.html -%}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          {{ content }}
-        </div>
-      </div>
+        {%- include navbar.html -%}
+        {{ content }}
     </div>
   </body>
-
 </html>
