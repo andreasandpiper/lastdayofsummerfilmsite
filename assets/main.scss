@@ -61,7 +61,7 @@ body {
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeIn ease 3s;
+    animation: fadeIn ease 5s;
   }
 }
 
@@ -81,8 +81,22 @@ body {
 }
 
 #crew {
-  background-color: #424242;
+  background-image: url("/assets/stardust.png");
   color: #d8d8d8;
+
+  .bio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2rem;
+    > div {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 1rem;
+    }
+  }
 }
 
 #watch {
@@ -99,5 +113,21 @@ body {
   }
   100% {
     opacity: 1;
+  }
+}
+
+#making_of {
+  background-color: #000000;
+  color: #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  img {
+    width: 100%;
+    margin: 2rem;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
