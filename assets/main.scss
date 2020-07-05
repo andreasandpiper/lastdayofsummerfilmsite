@@ -22,16 +22,13 @@ figure {
   padding: 0;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
+#container {
   background-image: url("/assets/tree_bark.png");
 }
 
 * {
   box-sizing: border-box;
-  font-family: "Open Sans";
+  font-family: "Montserrat", sans-serif;
 }
 
 .nav {
@@ -89,7 +86,6 @@ body {
     justify-content: space-between;
     margin: 2rem;
     > div {
-      width: 60%;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -121,8 +117,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   color: #d8d8d8;
   img {
-    width: 100%;
-    margin: 1rem;
+    padding: 1rem;
   }
   .locations {
     display: flex;

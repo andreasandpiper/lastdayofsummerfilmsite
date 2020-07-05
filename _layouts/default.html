@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}"> {%- include
+head.html -%}
 
-  {%- include head.html -%}
-
-  <body>
-    <div class="container-fluid p-0">
-        {%- include navbar.html -%}
-        {{ content }}
-    </div>
-  </body>
-</html>
+<body>
+  <div class="container-fluid p-0" id="container">
+    {%- include navbar.html -%} {{ content }}
+  </div>
+</body>
