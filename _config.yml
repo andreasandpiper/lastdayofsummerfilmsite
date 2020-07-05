@@ -21,8 +21,8 @@
 title: Last Day of Summer Film
 email: andrea.wayte@gmail.com
 description: Static webpage to promote the film 'Last Day of Summer'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://film.sketchytrails.com"
 
 # Build settings
 plugins:
