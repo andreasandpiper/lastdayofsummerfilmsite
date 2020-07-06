@@ -35,6 +35,7 @@ figure {
   background-color: #000000;
   padding-top: 20px;
   padding-bottom: 20px;
+  height: 75px;
   a {
     color: #ffffff;
     text-decortation: none;
@@ -45,20 +46,23 @@ figure {
   }
 }
 
-.main-img {
-  position: relative;
-  img {
-    width: 100%;
-  }
-  > div {
-    font-size: 6vw;
-    font-family: "Bebas Neue", cursive;
-    color: white;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation: fadeIn ease 5s;
+#header {
+  margin-top: 75px;
+  .main-img {
+    position: relative;
+    img {
+      width: 100%;
+    }
+    > div {
+      font-size: 6vw;
+      font-family: "Bebas Neue", cursive;
+      color: white;
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation: fadeIn ease 5s;
+    }
   }
 }
 

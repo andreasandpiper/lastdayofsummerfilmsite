@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Last Day of Summer Film
+title: My Last Day of Summer
 email: andrea.wayte@gmail.com
-description: Static webpage to promote the film 'Last Day of Summer'
+description: "" #
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://film.sketchytrails.com"
+url: "film.sketchytrails.com"
 
 # Build settings
 plugins:
